@@ -126,12 +126,16 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\user\source\repos\LR_6\LR_6\lib\cryptopp-master\x64\Output;C:\Users\user\source\repos\LR_6\LR_6\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\user\source\repos\LR_6\LR_6\lib\cryptopp-master\x64\Output\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>cryptlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LR_6.cpp" />
+    <ClCompile Include="Wrapper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

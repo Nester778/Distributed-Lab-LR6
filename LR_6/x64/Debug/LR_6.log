@@ -1,2 +1,2 @@
 ﻿  LR_6.cpp
-  LR_6.vcxproj -> C:\Users\user\source\repos\LR_6\x64\Debug\LR_6.exe
+C:\Users\user\source\repos\LR_6\LR_6\LR_6.cpp(2,10): fatal  error C1083: Не удается открыть файл включение: cryptlib.h: No such file or directory,
